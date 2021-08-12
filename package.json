@@ -9,7 +9,7 @@
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build",
-    "postinstall": "tsc --outDir ./build"
+    "postinstall": "npm run build"
   },
   "author": "Vladimír Fojtík <vladimir@fojtik.dev>, Břetislav Štěpán <info@bretislavstepan.cz>",
   "license": "MIT",
